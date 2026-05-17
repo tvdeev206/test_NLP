@@ -18,3 +18,9 @@
 prompt user gửi để xử lý.
 
 Đầu ra là list các id, tên hãng, tên mẫu, và shop đang cho thuê
+
+## Phần khác
+Yêu cầu prompt: Đầy đủ các attribute, loại xe {xe máy, ô tô}, loại fuel, màu sắc, số chỗ ngồi, phân khúc giá.
+
+Khi xử lý xong phần prompt thì sẽ có một dataframe gồm các id phương tiện phù hợp nhất với yêu cầu khách hàng, và đối chứng id với bên list thuê xe
+xét vị trí hiện tại của user và vị trí của bên cho thuê, nếu khoảng cách hơn 50 km thì id xe đó bị xóa khỏi list.
